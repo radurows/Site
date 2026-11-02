@@ -86,10 +86,10 @@ function App() {
 
   useEffect(() => {
   const videos = [
-    '/videos/management.webm',
-    '/videos/customer.webm',
-    '/videos/cloud.webm',
-    '/videos/digital.webm',
+    `${import.meta.env.BASE_URL}videos/management.webm`,
+    `${import.meta.env.BASE_URL}videos/customer.webm`,
+    `${import.meta.env.BASE_URL}videos/cloud.webm`,
+    `${import.meta.env.BASE_URL}videos/digital.webm`,
   ]
 
   videos.forEach((src) => {
