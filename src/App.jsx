@@ -411,6 +411,24 @@ function App() {
                   */}
           </article>
 
+
+          <article className="project-card">
+            <span>06 / ENABLEMENT</span>
+
+            <h3>Technical Presentations & Enablement</h3>
+
+            <p>
+              Delivering technical presentations, 
+              customer training sessions and webinars, 
+              translating complex cloud infrastructure concepts into accessible, 
+              practical learning experiences.
+            </p>
+
+            <small>
+              200+ Sessions · 1:Many Presentations · Customer Training
+            </small>
+          </article>
+
         </div>
 
       </section>
