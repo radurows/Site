@@ -186,7 +186,7 @@ function App() {
 
             <video
               className="hero-video"
-              src={`/videos/${activeVideo}.webm`}
+              src={`${import.meta.env.BASE_URL}videos/${activeVideo}.webm`}
               autoPlay
               loop
               muted
